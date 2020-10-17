@@ -1,0 +1,8 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:hls-eval-internal-libs"
+    - path: "internals"
+      component: "lib:internals"
+    - path: "app/Main.hs"
+      component: "exe:hls-eval-internal-libs-exe"
